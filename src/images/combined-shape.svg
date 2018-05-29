@@ -1,0 +1,16 @@
+<svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>6DB04863-F38E-42CD-B401-616608CB8852</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M135,3169.41421 L130.707107,3173.70711 C130.316582,3174.09763 129.683418,3174.09763 129.292893,3173.70711 C128.902369,3173.31658 128.902369,3172.68342 129.292893,3172.29289 L135.292893,3166.29289 C135.683418,3165.90237 136.316582,3165.90237 136.707107,3166.29289 L142.707107,3172.29289 C143.097631,3172.68342 143.097631,3173.31658 142.707107,3173.70711 C142.316582,3174.09763 141.683418,3174.09763 141.292893,3173.70711 L137,3169.41421 L137,3183 C137,3183.55228 136.552285,3184 136,3184 C135.447715,3184 135,3183.55228 135,3183 L135,3169.41421 Z" id="path-1"></path>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-SET" transform="translate(-129.000000, -3166.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,155 @@
+.map-section {
+  position: relative;
+
+  .google-map {
+    height: 472px;
+    width: 100%;
+
+    @include media-breakpoint-down(sm) {
+      height: 792px;
+    }
+  }
+
+  .popup-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.1);
+    opacity: 0;
+  }
+
+  .map-popup {
+    position: absolute;
+    top: 48px;
+    left: 150px;
+    transform: translate(-25px, 0);
+    z-index: 10;
+    opacity: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: calc(100% - 20px);
+    width: 536px;
+    height: 376px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 26px 33px -30px rgba(0, 0, 0, 0.5);
+
+    @include media-breakpoint-down(md) {
+      left: 30px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      left: 10px;
+      top: 56px;
+    }
+
+    .medtek-logo {
+      width: 265px;
+      margin-bottom: 20px;
+
+      @include media-breakpoint-down(sm) {
+        width: 139px;
+        margin-bottom: 16px;
+      }
+    }
+
+    .info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      @include media-breakpoint-down(sm) {
+        align-items: start;
+      }
+    }
+
+    .info-icon {
+      width: 24px;
+      height: 24px;
+      margin-right: 24px;
+
+      @include media-breakpoint-down(sm) {
+        margin-right: 34px;
+        margin-top: 3px;
+      }
+    }
+
+    .info-inner {
+      display: flex;
+      align-items: center;
+
+      @include media-breakpoint-down(sm) {
+        flex-direction: column;
+        align-items: start;
+        width: 190px;
+      }
+    }
+
+    .phone {
+      opacity: 0.65;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.78;
+      letter-spacing: 0.1px;
+      text-align: left;
+      color: #000000;
+
+      display: flex;
+      align-items: center;
+      margin-right: 7px;
+
+      .dot {
+        font-size: 12px;
+        margin: 0 6px;
+      }
+    }
+
+    .work-time {
+      opacity: 0.25;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.78;
+      letter-spacing: 0.1px;
+      text-align: left;
+      color: #000000;
+    }
+
+    .address {
+      opacity: 0.65;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.78;
+      letter-spacing: 0.1px;
+      text-align: left;
+      color: #000000;
+    }
+
+    .btn-custom {
+      opacity: 1;
+      margin-top: 23px;
+      padding: 0 98px;
+
+      @include media-breakpoint-down(sm) {
+        padding: 0 40px;
+      }
+
+      &:hover {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}

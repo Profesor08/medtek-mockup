@@ -1,0 +1,21 @@
+<svg width="190px" height="164px" viewBox="0 0 190 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Background-Left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="22.6926728%" y1="122.269169%" x2="51.3916359%" y2="-22.7628773%" id="linearGradient-1">
+            <stop stop-color="#00AED9" stop-opacity="0.217362998" offset="0%"></stop>
+            <stop stop-color="#0092C5" stop-opacity="0.0144927536" offset="64.1585104%"></stop>
+            <stop stop-color="#0076B1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Index-Expanded" fill="url(#linearGradient-1)">
+            <g id="Background" transform="translate(-280.000000, -2.000000)">
+                <g id="Background-Left" transform="translate(280.000000, 2.000000)">
+                    <path d="M93.0353992,66.0731837 C33.7513329,75.8237837 30.7918375,136.082969 0,164 L0.17525464,-7.61701813e-12 L190,-7.61701813e-12 C167.385743,37.1362047 135.064209,59.1605992 93.0353992,66.0731837 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

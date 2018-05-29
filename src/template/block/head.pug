@@ -1,0 +1,21 @@
+meta(charset="utf-8")
+meta(name="viewport", content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1")
+title Medtek
+
+link(href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet")
+
+template#call-template
+  .call-modal
+    .modal-title Закажите  бесплатный обратный звонок
+    p Наш менеджер обязательно свяжется с вами!
+    input.phone(type="tel" placeholder="Ваш номер телефона")
+    .d-flex.flex-column.flex-md-row
+      select.custom-select
+        option(selected) Сейчас
+        option Потом
+        option Завтра
+      select.custom-select
+        option(selected) 18:00
+        option 19:00
+        option 20:00
+    .btn-custom позвоните мне !

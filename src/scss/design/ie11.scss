@@ -1,0 +1,16 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .btn-custom {
+    height: 48px;
+  }
+
+  .main-section {
+    .container {
+      margin: 0;
+    }
+
+    h1 {
+      background: transparent;
+      color: #07babe;
+    }
+  }
+}

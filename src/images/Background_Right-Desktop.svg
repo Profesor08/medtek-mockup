@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1400 1408" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Background_Right-Desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="51.678735%" y1="-11.4514953%" x2="51.2909174%" y2="103.938731%" id="linearGradient-1">
+            <stop stop-color="#9FDAD9" offset="0%"></stop>
+            <stop stop-color="#0092C5" stop-opacity="0.0144927536" offset="15.1080169%"></stop>
+            <stop stop-color="#0076B1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="51.2909174%" y1="1.15606936%" x2="51.290915%" y2="96.5317919%" id="linearGradient-2">
+            <stop stop-color="#00AED9" stop-opacity="0.17" offset="0%"></stop>
+            <stop stop-color="#0092C5" stop-opacity="0.0144927536" offset="50.2890173%"></stop>
+            <stop stop-color="#0076B1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="52.9074327%" y1="2.83820005%" x2="49.6743996%" y2="95.4200864%" id="linearGradient-3">
+            <stop stop-color="#00AED9" stop-opacity="0.17" offset="0%"></stop>
+            <stop stop-color="#0092C5" stop-opacity="0.0144927536" offset="50.2890173%"></stop>
+            <stop stop-color="#0076B1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.0547911%" y1="2.23252687%" x2="53.888857%" y2="96.8012521%" id="linearGradient-4">
+            <stop stop-color="#00AED9" stop-opacity="0.217391304" offset="0%"></stop>
+            <stop stop-color="#0092C5" stop-opacity="0.0144927536" offset="61.5430327%"></stop>
+            <stop stop-color="#0076B1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M862.786866,1400.39353 C809.422091,1404.95322 755.999578,1407.46151 702.519326,1407.91838 C661.541354,1408.26846 620.531685,1407.49235 579.490318,1405.59007 C386.32688,1385.39043 193.16344,1316.62417 0,1199.2913 L0,902.422482 C65.207711,885.887297 155.549346,877.879952 280.517662,876.812353 C736.799675,872.914358 557.771376,472.420771 986.685062,460.252787 C1339.52659,450.242918 1261.60784,142.8769 1400,32.6496423 L1400,1199.2913 C1220.92896,1308.06406 1041.85791,1375.09813 862.786866,1400.39353 Z" id="path-5"></path>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Index-Expanded">
+            <g id="Background_Right-Desktop">
+                <path d="M0,212 C233.333333,70.6666667 466.666667,3.5682568e-13 700,2.27373675e-13 C933.333333,1.76488453e-13 1166.66667,70.6666667 1400,212 L1400,1408 L0,1408 L0,212 Z" id="Path-2-Copy" fill="url(#linearGradient-1)" opacity="0.34057971" transform="translate(700.000000, 704.000000) rotate(-180.000000) translate(-700.000000, -704.000000) "></path>
+                <path d="M0,172 C233.333333,57.3333333 466.666667,2.4321864e-13 700,1.13686838e-13 C933.333333,6.30606678e-14 1166.66667,57.3333333 1400,172 L1398,1368 L1.79371152,1368 L0,172 Z" id="Path-2" fill="url(#linearGradient-2)" transform="translate(700.000000, 684.000000) rotate(-180.000000) translate(-700.000000, -684.000000) "></path>
+                <path d="M0.618975217,825.852821 C56.5853505,820.857451 125.035108,819.999811 208.862925,822.927143 C665.078854,838.858554 511.371752,432.544075 940.758376,439.057554 C1307.46126,444.620167 1232.16236,111.571312 1400,21 L1400,1196 C1166.66667,1310.66667 933.333333,1368 700,1368 C466.666667,1368 233.333333,1310.66667 0,1196 L0.618975217,825.852821 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="Combined-Shape" fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

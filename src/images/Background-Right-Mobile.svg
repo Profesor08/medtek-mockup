@@ -1,0 +1,43 @@
+<svg width="360px" height="1104px" viewBox="0 0 360 1104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Background-Right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="51.678735%" y1="-11.4514953%" x2="54.7222222%" y2="67.8899083%" id="linearGradient-1">
+            <stop stop-color="#9FDAD9" offset="0%"></stop>
+            <stop stop-color="#0092C5" stop-opacity="0.0144927536" offset="19.2896948%"></stop>
+            <stop stop-color="#0076B1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="51.2909174%" y1="1.15606936%" x2="51.290915%" y2="96.5317919%" id="linearGradient-2">
+            <stop stop-color="#00AED9" stop-opacity="0.17" offset="0%"></stop>
+            <stop stop-color="#0092C5" stop-opacity="0.0144927536" offset="50.2890173%"></stop>
+            <stop stop-color="#0076B1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="52.9074327%" y1="2.83820005%" x2="49.6743996%" y2="95.4200864%" id="linearGradient-3">
+            <stop stop-color="#00AED9" stop-opacity="0.17" offset="0%"></stop>
+            <stop stop-color="#0092C5" stop-opacity="0.0144927536" offset="50.2890173%"></stop>
+            <stop stop-color="#0076B1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.0547911%" y1="2.23252687%" x2="53.888857%" y2="96.8012521%" id="linearGradient-4">
+            <stop stop-color="#00AED9" stop-opacity="0.217391304" offset="0%"></stop>
+            <stop stop-color="#0092C5" stop-opacity="0.0144927536" offset="61.5430327%"></stop>
+            <stop stop-color="#0076B1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M394.416853,1022.25435 C370.021527,1024.33878 345.599807,1025.48542 321.151692,1025.69428 C302.418905,1025.85432 283.671627,1025.49952 264.90986,1024.62991 C176.606574,1015.39579 88.3032869,983.959785 0,930.321901 L0,794.610441 C29.8092393,787.051499 71.1082727,783.390999 128.236646,782.902954 C336.822709,781.121013 254.9812,598.03823 451.056028,592.475723 C612.355012,587.899783 576.735012,447.389603 640,397 L640,930.321901 C558.138951,980.04659 476.277902,1010.69074 394.416853,1022.25435 Z" id="path-5"></path>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Index-Expanded" transform="translate(0.000000, -41.000000)">
+            <g id="Background" transform="translate(-280.000000, -2.000000)">
+                <g id="Background-Right">
+                    <path d="M280,54.5142857 C340,18.1714286 400,-8.03991794e-14 460,-1.13686838e-13 C520,-1.26771609e-13 580,18.1714286 640,54.5142857 L640,1146.05714 L280,1146.05714 L280,54.5142857 Z" id="Path-2-Copy" fill="url(#linearGradient-1)" opacity="0.34057971" transform="translate(460.000000, 573.028571) rotate(-180.000000) translate(-460.000000, -573.028571) "></path>
+                    <path d="M280,45 C340,15 400,-8.03570173e-14 460,-1.13686838e-13 C520,-1.26688012e-13 580,14.6666667 640,44 L640,1122 L280,1122 L280,45 Z" id="Path-2" fill="url(#linearGradient-2)" transform="translate(460.000000, 561.000000) rotate(-180.000000) translate(-460.000000, -561.000000) "></path>
+                    <path d="M0.282960099,753.140215 C25.8675888,750.856617 57.1589063,750.464553 95.4801943,751.802762 C304.036048,759.085693 233.769944,573.341931 430.060972,576.319522 C597.696574,578.862431 563.274221,426.404028 640,385 L640,922.350354 C533.333333,974.769402 426.666667,1000.97893 320,1000.97893 C213.333333,1000.97893 106.666667,974.769402 0,922.350354 L0.282960099,753.140215 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

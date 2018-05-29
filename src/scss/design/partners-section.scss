@@ -1,0 +1,82 @@
+.partners-section {
+  padding: 88px 0;
+  overflow: hidden;
+
+  h3 {
+    opacity: 0.65;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: 0.1px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .slick {
+    position: relative;
+    //overflow: hidden;
+
+    .item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 25%;
+      outline: none;
+    }
+
+    .slick-prev, .slick-next {
+      position: absolute;
+      top: 50%;
+      z-index: 1;
+      width: 50px;
+      height: 100%;
+      border: 0;
+      background: transparent no-repeat center center;
+      overflow: hidden;
+      text-indent: 9999px;
+      opacity: 0;
+      outline: none;
+      transition: ease opacity 500ms,  ease transform 500ms;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .slick-prev {
+      transform: translate(-100%, -50%);
+      left: 0;
+      background-image: url(../images/arrow-left.svg);
+    }
+
+    .slick-next {
+      transform: translate(100%, -50%);
+      right: 0;
+      background-image: url(../images/arrow-right.svg);
+    }
+
+    &:hover {
+      .slick-prev {
+        transform: translate(0, -50%);
+        opacity: .7;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      .slick-next {
+        transform: translate(0, -50%);
+        opacity: .7;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

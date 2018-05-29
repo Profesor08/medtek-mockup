@@ -1,0 +1,17 @@
+.header
+  .container
+    nav.navbar.navbar-expand-lg.justify-content-between
+      a.navbar-brand(href='#main')
+        img(src=require("../../images/logo.svg") alt="MEDTEK")
+      button.navbar-toggler
+        include ../../images/menu.svg
+      #navbarTogglerDemo02.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+          li.nav-item.active
+            a.nav-link(href='#our-services') Наши услуги
+          li.nav-item
+            a.nav-link(href='#about-us') О компании
+          li.nav-item
+            a.nav-link(href='#contacts') Контакты
+          li.nav-item
+            a.nav-link.call-link(href='#', data-modal="#call-template") обратный звонок

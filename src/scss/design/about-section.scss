@@ -1,0 +1,106 @@
+.about-section {
+  padding: 0 0 130px 0;
+  margin-top: -20px;
+  cursor: default;
+
+  @include media-breakpoint-down(sm) {
+    padding: 0 0 50px 0;
+  }
+
+  .card-container {
+    @include media-breakpoint-up(xl) {
+      &:first-child, &:last-child {
+        transform: translateY(-48px);
+      }
+    }
+  }
+
+  .slider {
+    overflow: hidden;
+    padding: 70px 0 50px 0;
+    position: relative;
+    margin-top: -50px;
+    overflow-y: visible;
+
+    @include media-breakpoint-up(sm) {
+      margin-top: 0;
+    }
+  }
+
+  .slider-nav {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+
+    @include media-breakpoint-up(sm) {
+      display: none;
+    }
+
+    .nav-dot {
+      width: 7px;
+      height: 7px;
+      background-color: #9fdad9;
+      border-radius: 50%;
+      transition: ease background-color 500ms;
+      margin: 0 5px;
+
+      &.is-active {
+        background-color: #07babe;
+      }
+    }
+  }
+
+  .card {
+    width: 256px;
+
+    box-sizing: content-box;
+    background-clip: padding-box;
+    border-radius: 4px;
+    box-shadow: 0 35px 26px -16px rgba(7, 113, 166, 0.26), 0 -5px 4px -10px rgba(8, 132, 194, 0.09);
+    background-image: linear-gradient(to bottom, #ffffff, #fcfcfc);
+    border: solid 6px rgba(255, 255, 255, 0.3);
+    user-select: none;
+    transition: ease transform 300ms;
+    text-decoration: none;
+
+    &:hover, &:active, &:focus {
+      transform: translateY(-20px);
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+      margin: 20px auto;
+    }
+
+    .card-body {
+      padding: 0 37px 32px 37px;
+    }
+
+    .card-title {
+      opacity: 0.83;
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: 0.2px;
+      text-align: center;
+      color: #0884c2;
+    }
+
+    .card-text {
+      opacity: 0.65;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000000;
+    }
+  }
+}

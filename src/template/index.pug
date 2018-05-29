@@ -1,0 +1,229 @@
+doctype html
+html
+  head
+    include block/head
+
+  body
+    include block/background
+    include block/header
+    include block/sidebar
+
+    #main.main-section
+      .container
+        .row.justify-content-center
+          .col-12.col-md-10.col-lg-10
+            h1 Делаем здоровье доступным
+            p Поставка медицинских изделий и оборудования, внедрение инновационных технологий для медицинских учреждений
+
+            a.btn-custom(href="#our-services") Наши услуги
+
+    #about-us.about-section
+      .container
+
+        .slider
+          .slider-inner.row.flex-nowrap
+            .card-container.col-12.col-sm-6.col-lg-4.col-xl-3.d-flex.justify-content-center
+              .card
+                img.card-img-top(src=require("../images/Reputation.svg"), alt="Reputation")
+                .card-body
+                  h5.card-title Репутация
+                  p.card-text
+                    | Мы на рынке с 2003 года.
+                    | Наши клиенты -  более 40 медицинских учреждений по всей стране.
+            .card-container.col-12.col-sm-6.col-lg-4.col-xl-3.d-flex.justify-content-center
+              .card
+                img.card-img-top(src=require("../images/Assortment.svg"), alt="Reputation")
+                .card-body
+                  h5.card-title Ассортимент
+                  p.card-text
+                    | Эксклюзивные соглашения
+                    | с крупными мировыми производителями изделий
+                    | для протезирования.
+            .card-container.col-12.col-sm-6.col-lg-4.col-xl-3.d-flex.justify-content-center
+              .card
+                img.card-img-top(src=require("../images/Innovation.svg"), alt="Reputation")
+                .card-body
+                  h5.card-title Инновации
+                  p.card-text
+                    | Мы регулярно участвуем в медицинских симпозиумах
+                    | на международных и Российских  площадках.
+            .card-container.col-12.col-sm-6.col-lg-4.col-xl-3.d-flex.justify-content-center
+              .card
+                img.card-img-top(src=require("../images/Support.svg"), alt="Reputation")
+                .card-body
+                  h5.card-title Поддержка
+                  p.card-text
+                    | Cервис полного цикла: проектирование, внедрение, обслуживание
+                    | и ремонт оборудования
+          .slider-nav
+            .nav-dot.is-active
+            .nav-dot
+            .nav-dot
+            .nav-dot
+
+
+    #our-services.services-section
+      h2 Наши услуги
+
+      .services-container
+        .container
+
+          #service-1.service
+            img.img-fluid.service-image(src=require("../images/Service-01.png") alt="")
+            .d-flex.justify-content-between.align-items-center
+              .service-title Уникальные ортопедические протезы <strong>STANMORE IMPLANTS</strong>
+              .expand-icon
+                include ../images/plus-icon-default.svg
+            .service-body.row
+              .col-12.col-lg-8
+                p
+                  | Компания «МЕДТЭК» поставляет на российский рынок продукцию
+                  | для эндопротезирования от компании STANMORE IMPLANTS:
+
+                ul
+                  li эндопротезы тазобедренного сустава
+                  li коленного сустава
+                  li плечевого сустава
+                  li раздвижные эндопротезы для детей.
+
+                p Индивидуальное изготовление протезов
+                a.icon-link.download-icon(href="#") Скачать каталог ( *pdf  )
+
+          #service-2.service
+            img.img-fluid.service-image(src=require("../images/Service-02.png") alt="")
+            .d-flex.justify-content-between.align-items-center
+              .service-title Эндопротезы компании <strong>STRYKER</strong>
+              .expand-icon
+                include ../images/plus-icon-default.svg
+            .service-body.row
+              .col-12.col-lg-8
+                p
+                  | Компания Stryker Orthopedics занимает одно из лидирующих мест на рынке медицинских инструментов и ортопедических изделий. «МЕДТЭК» является эксклюзивным дистрибьютором Stryker Orthopedics по некоторым видам изделий.
+
+                a.icon-link.download-icon(href="#") Скачать каталог ( *pdf  )
+
+          #service-3.service
+            img.img-fluid.service-image(src=require("../images/Service-03.png") alt="")
+            .d-flex.justify-content-between.align-items-center
+              .service-title.title-small <strong>Oscar</strong> - УЗ аппарат для ревиз. ортопедических операций
+              .service-title.title-full <strong>Oscar</strong> - ультразвуковой аппарат для ревизионных ортопедических операций
+              .expand-icon
+                include ../images/plus-icon-default.svg
+            .service-body.row
+              .col-12.col-lg-8
+                p
+                  | «МЕДТЭК» - эксклюзивный дистрибьютор аппарата OSCAR (ORTHOFIX, Великобритания) на российском рынке.
+
+                a.icon-link.download-icon(href="#") Скачать каталог ( *pdf  )
+
+          #service-4.service
+            img.img-fluid.service-image(src=require("../images/Service-04.png") alt="")
+            .d-flex.justify-content-between.align-items-center
+              .service-title Огромный выбор медицинских расходных материалов
+              .expand-icon
+                include ../images/plus-icon-default.svg
+            .service-body.row
+              .col-12.col-lg-8
+                p
+                  | Компания «МЕДТЭК» поставляет полный спектр медицинских расходных
+                  | материалов, в том числе для:
+
+                ul
+                  li хирургии
+                  li урологии
+                  li гинекологии
+                  li анестезиологии
+                  li эндоваскулярной хирургии
+                  li гастроэнтерологии
+                  li педиатрического отделения
+
+          #service-5.service
+            img.img-fluid.service-image(src=require("../images/Service-05.png") alt="")
+            .d-flex.justify-content-between.align-items-center
+              .service-title Проектирование и оснащение операционных блоков и ЦСО
+              .expand-icon
+                include ../images/plus-icon-default.svg
+            .service-body.row
+              .col-12.col-lg-8
+                p
+                  | Компания «МЕДТЭК» осуществляет полный цикл работ по проектированию
+                  | и оснащению операционных блоков, поставляя:
+
+                ul
+                  li электротехническое оборудование
+                  li системы освещения
+                  li вентиляции
+                  li отопления
+                  li снабжения медицинскими газами
+                  li сантехническое
+                  li моечное оборудование и другие категории медицинской техники
+
+          #service-6.service
+            img.img-fluid.service-image(src=require("../images/Service-06.png") alt="")
+            .d-flex.justify-content-between.align-items-center
+              .service-title Поставка и ремонт медицинского оборудования
+              .expand-icon
+                include ../images/plus-icon-default.svg
+            .service-body.row
+              .col-12.col-lg-8
+                p
+                  | Компания «МЕДТЭК» осуществляет комплексные поставки и сервис оборудования:
+
+                ul
+                  li кардиологии
+                  li реанимации
+                  li эндоскопии
+                  li гастроскопии
+                  li офтальмологии
+                  li гинекологии
+                  li урологии
+                  li колопроктологии
+
+
+
+
+    #partners-section.partners-section
+      .container
+        h3 Производители, которым мы доверяем
+
+        .slick
+          .item
+            img.img-fluid(src=require("../images/stanmore-implants.png"), alt="")
+          .item
+            img.img-fluid(src=require("../images/orthofix.png"), alt="")
+          .item
+            img.img-fluid(src=require("../images/stryker.png"), alt="")
+          .item
+            img.img-fluid(src=require("../images/lars.png"), alt="")
+          .item
+            img.img-fluid(src=require("../images/stanmore-implants.png"), alt="")
+          .item
+            img.img-fluid(src=require("../images/orthofix.png"), alt="")
+          .item
+            img.img-fluid(src=require("../images/stryker.png"), alt="")
+          .item
+            img.img-fluid(src=require("../images/lars.png"), alt="")
+
+
+    #contacts.map-section
+      #google-map.google-map
+      .popup-background
+      .map-popup
+        img.medtek-logo(src=require("../images/logo.svg"))
+        .info
+          img.info-icon(src=require("../images/tel-icon.svg"))
+          .info-inner
+            .phone (495) 936 <span class="dot">●</span> 26 <span class="dot">●</span> 60
+            .work-time c 9:00 до 19:00
+        .info
+          img.info-icon(src=require("../images/location-icon.svg"))
+          .info-inner
+            .address г. Москва, улица Новаторов, дом 6
+        a.btn-custom(href="#", data-modal="#call-template") Обратный звонок
+
+    .scroll-top-container
+      .scroll-top
+        include ../images/back-icon.svg
+
+
+    include block/footer

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+<title>Medtek</title>
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&amp;amp;subset=cyrillic" rel="stylesheet">
+<template id="call-template">
+  <div class="call-modal">
+    <div class="modal-title">Закажите  бесплатный обратный звонок</div>
+    <p>Наш менеджер обязательно свяжется с вами!</p>
+    <input class="phone" type="tel" placeholder="Ваш номер телефона">
+    <div class="d-flex flex-column flex-md-row">
+      <select class="custom-select">
+        <option selected>Сейчас</option>
+        <option>Потом</option>
+        <option>Завтра</option>
+      </select>
+      <select class="custom-select">
+        <option selected>18:00</option>
+        <option>19:00</option>
+        <option>20:00</option>
+      </select>
+    </div>
+    <div class="btn-custom">позвоните мне !</div>
+  </div>
+</template>
+  <link href="./css/main.css" rel="stylesheet"></head>
+  <body>
+<div class="page-background">
+  <div class="background-left"><img class="d-none d-md-inline-block" src="images/Background-Left-Desktop.svg"><img class="d-md-none" src="images/Background-Left-Mobile.svg"></div>
+  <div class="background-right"><img class="d-none d-md-inline-block" src="images/Background_Right-Desktop.svg"><img class="d-md-none" src="images/Background-Right-Mobile.svg"></div>
+</div>
+<div class="header">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg justify-content-between"><a class="navbar-brand" href="#main"><img src="images/logo.svg" alt="MEDTEK"></a>
+      <button class="navbar-toggler"><svg width="20" height="14" viewBox="14 16 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M15,24 C14.4477153,24 14,23.5522847 14,23 C14,22.4477153 14.4477153,22 15,22 L33,22 C33.5522847,22 34,22.4477153 34,23 C34,23.5522847 33.5522847,24 33,24 L15,24 Z M15,18 C14.4477153,18 14,17.5522847 14,17 C14,16.4477153 14.4477153,16 15,16 L33,16 C33.5522847,16 34,16.4477153 34,17 C34,17.5522847 33.5522847,18 33,18 L15,18 Z M15,30 C14.4477153,30 14,29.5522847 14,29 C14,28.4477153 14.4477153,28 15,28 L33,28 C33.5522847,28 34,28.4477153 34,29 C34,29.5522847 33.5522847,30 33,30 L15,30 Z"></path>
+</svg>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active"><a class="nav-link" href="#our-services">Наши услуги</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about-us">О компании</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
+          <li class="nav-item"><a class="nav-link call-link" href="#" data-modal="#call-template">обратный звонок</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+<div class="sidebar">
+  <button class="close-button"><svg width="18px" height="14px" viewBox="15 16 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M18.4142136,24 L22.7071068,28.2928932 C23.0976311,28.6834175 23.0976311,29.3165825 22.7071068,29.7071068 C22.3165825,30.0976311 21.6834175,30.0976311 21.2928932,29.7071068 L15.2928932,23.7071068 C14.9023689,23.3165825 14.9023689,22.6834175 15.2928932,22.2928932 L21.2928932,16.2928932 C21.6834175,15.9023689 22.3165825,15.9023689 22.7071068,16.2928932 C23.0976311,16.6834175 23.0976311,17.3165825 22.7071068,17.7071068 L18.4142136,22 L32,22 C32.5522847,22 33,22.4477153 33,23 C33,23.5522847 32.5522847,24 32,24 L18.4142136,24 Z" ></path>
+</svg>
+  </button>
+  <div class="sidebar-nav">
+    <div class="center-nav"><a class="menu-item" href="#our-services">наши услуги</a><a class="menu-item" href="#about-us">о компании</a><a class="menu-item" href="#contacts">контакты</a></div><a class="call-button" href="#">
+      <div class="text" data-modal="#call-template">обратный звонок</div></a>
+  </div>
+</div>
+<div class="sidebar-background"></div>
+    <div class="main-section" id="main">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-10">
+            <h1>Делаем здоровье доступным</h1>
+            <p>Поставка медицинских изделий и оборудования, внедрение инновационных технологий для медицинских учреждений</p><a class="btn-custom" href="#our-services">Наши услуги</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-section" id="about-us">
+      <div class="container">
+        <div class="slider">
+          <div class="slider-inner row flex-nowrap">
+            <div class="card-container col-12 col-sm-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+              <div class="card"><img class="card-img-top" src="images/Reputation.svg" alt="Reputation">
+                <div class="card-body">
+                  <h5 class="card-title">Репутация</h5>
+                  <p class="card-text">
+                    Мы на рынке с 2003 года.
+                    Наши клиенты -  более 40 медицинских учреждений по всей стране.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container col-12 col-sm-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+              <div class="card"><img class="card-img-top" src="images/Assortment.svg" alt="Reputation">
+                <div class="card-body">
+                  <h5 class="card-title">Ассортимент</h5>
+                  <p class="card-text">
+                    Эксклюзивные соглашения
+                    с крупными мировыми производителями изделий
+                    для протезирования.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container col-12 col-sm-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+              <div class="card"><img class="card-img-top" src="images/Innovation.svg" alt="Reputation">
+                <div class="card-body">
+                  <h5 class="card-title">Инновации</h5>
+                  <p class="card-text">
+                    Мы регулярно участвуем в медицинских симпозиумах
+                    на международных и Российских  площадках.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container col-12 col-sm-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+              <div class="card"><img class="card-img-top" src="images/Support.svg" alt="Reputation">
+                <div class="card-body">
+                  <h5 class="card-title">Поддержка</h5>
+                  <p class="card-text">
+                    Cервис полного цикла: проектирование, внедрение, обслуживание
+                    и ремонт оборудования
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-nav">
+            <div class="nav-dot is-active"></div>
+            <div class="nav-dot"></div>
+            <div class="nav-dot"></div>
+            <div class="nav-dot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services-section" id="our-services">
+      <h2>Наши услуги</h2>
+      <div class="services-container">
+        <div class="container">
+          <div class="service" id="service-1"><img class="img-fluid service-image" src="images/Service-01.png" alt="">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="service-title">Уникальные ортопедические протезы <strong>STANMORE IMPLANTS</strong></div>
+              <div class="expand-icon"><svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <circle fill="white" cx="24" cy="24" r="24"></circle>
+    <path fill="#4E4E4E" transform="translate(12, 12)"
+          d="M13,11 L19,11 C19.5522847,11 20,11.4477153 20,12 C20,12.5522847 19.5522847,13 19,13 L13,13 L13,19 C13,19.5522847 12.5522847,20 12,20 C11.4477153,20 11,19.5522847 11,19 L11,13 L5,13 C4.44771525,13 4,12.5522847 4,12 C4,11.4477153 4.44771525,11 5,11 L11,11 L11,5 C11,4.44771525 11.4477153,4 12,4 C12.5522847,4 13,4.44771525 13,5 L13,11 Z"></path>
+</svg>
+              </div>
+            </div>
+            <div class="service-body row">
+              <div class="col-12 col-lg-8">
+                <p>
+                  Компания «МЕДТЭК» поставляет на российский рынок продукцию
+                  для эндопротезирования от компании STANMORE IMPLANTS:
+                </p>
+                <ul>
+                  <li>эндопротезы тазобедренного сустава</li>
+                  <li>коленного сустава</li>
+                  <li>плечевого сустава</li>
+                  <li>раздвижные эндопротезы для детей.</li>
+                </ul>
+                <p>Индивидуальное изготовление протезов</p><a class="icon-link download-icon" href="#">Скачать каталог ( *pdf  )</a>
+              </div>
+            </div>
+          </div>
+          <div class="service" id="service-2"><img class="img-fluid service-image" src="images/Service-02.png" alt="">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="service-title">Эндопротезы компании <strong>STRYKER</strong></div>
+              <div class="expand-icon"><svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <circle fill="white" cx="24" cy="24" r="24"></circle>
+    <path fill="#4E4E4E" transform="translate(12, 12)"
+          d="M13,11 L19,11 C19.5522847,11 20,11.4477153 20,12 C20,12.5522847 19.5522847,13 19,13 L13,13 L13,19 C13,19.5522847 12.5522847,20 12,20 C11.4477153,20 11,19.5522847 11,19 L11,13 L5,13 C4.44771525,13 4,12.5522847 4,12 C4,11.4477153 4.44771525,11 5,11 L11,11 L11,5 C11,4.44771525 11.4477153,4 12,4 C12.5522847,4 13,4.44771525 13,5 L13,11 Z"></path>
+</svg>
+              </div>
+            </div>
+            <div class="service-body row">
+              <div class="col-12 col-lg-8">
+                <p>Компания Stryker Orthopedics занимает одно из лидирующих мест на рынке медицинских инструментов и ортопедических изделий. «МЕДТЭК» является эксклюзивным дистрибьютором Stryker Orthopedics по некоторым видам изделий.</p><a class="icon-link download-icon" href="#">Скачать каталог ( *pdf  )</a>
+              </div>
+            </div>
+          </div>
+          <div class="service" id="service-3"><img class="img-fluid service-image" src="images/Service-03.png" alt="">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="service-title title-small"><strong>Oscar</strong> - УЗ аппарат для ревиз. ортопедических операций</div>
+              <div class="service-title title-full"><strong>Oscar</strong> - ультразвуковой аппарат для ревизионных ортопедических операций</div>
+              <div class="expand-icon"><svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <circle fill="white" cx="24" cy="24" r="24"></circle>
+    <path fill="#4E4E4E" transform="translate(12, 12)"
+          d="M13,11 L19,11 C19.5522847,11 20,11.4477153 20,12 C20,12.5522847 19.5522847,13 19,13 L13,13 L13,19 C13,19.5522847 12.5522847,20 12,20 C11.4477153,20 11,19.5522847 11,19 L11,13 L5,13 C4.44771525,13 4,12.5522847 4,12 C4,11.4477153 4.44771525,11 5,11 L11,11 L11,5 C11,4.44771525 11.4477153,4 12,4 C12.5522847,4 13,4.44771525 13,5 L13,11 Z"></path>
+</svg>
+              </div>
+            </div>
+            <div class="service-body row">
+              <div class="col-12 col-lg-8">
+                <p>«МЕДТЭК» - эксклюзивный дистрибьютор аппарата OSCAR (ORTHOFIX, Великобритания) на российском рынке.</p><a class="icon-link download-icon" href="#">Скачать каталог ( *pdf  )</a>
+              </div>
+            </div>
+          </div>
+          <div class="service" id="service-4"><img class="img-fluid service-image" src="images/Service-04.png" alt="">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="service-title">Огромный выбор медицинских расходных материалов</div>
+              <div class="expand-icon"><svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <circle fill="white" cx="24" cy="24" r="24"></circle>
+    <path fill="#4E4E4E" transform="translate(12, 12)"
+          d="M13,11 L19,11 C19.5522847,11 20,11.4477153 20,12 C20,12.5522847 19.5522847,13 19,13 L13,13 L13,19 C13,19.5522847 12.5522847,20 12,20 C11.4477153,20 11,19.5522847 11,19 L11,13 L5,13 C4.44771525,13 4,12.5522847 4,12 C4,11.4477153 4.44771525,11 5,11 L11,11 L11,5 C11,4.44771525 11.4477153,4 12,4 C12.5522847,4 13,4.44771525 13,5 L13,11 Z"></path>
+</svg>
+              </div>
+            </div>
+            <div class="service-body row">
+              <div class="col-12 col-lg-8">
+                <p>
+                  Компания «МЕДТЭК» поставляет полный спектр медицинских расходных
+                  материалов, в том числе для:
+                </p>
+                <ul>
+                  <li>хирургии</li>
+                  <li>урологии</li>
+                  <li>гинекологии</li>
+                  <li>анестезиологии</li>
+                  <li>эндоваскулярной хирургии</li>
+                  <li>гастроэнтерологии</li>
+                  <li>педиатрического отделения</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="service" id="service-5"><img class="img-fluid service-image" src="images/Service-05.png" alt="">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="service-title">Проектирование и оснащение операционных блоков и ЦСО</div>
+              <div class="expand-icon"><svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <circle fill="white" cx="24" cy="24" r="24"></circle>
+    <path fill="#4E4E4E" transform="translate(12, 12)"
+          d="M13,11 L19,11 C19.5522847,11 20,11.4477153 20,12 C20,12.5522847 19.5522847,13 19,13 L13,13 L13,19 C13,19.5522847 12.5522847,20 12,20 C11.4477153,20 11,19.5522847 11,19 L11,13 L5,13 C4.44771525,13 4,12.5522847 4,12 C4,11.4477153 4.44771525,11 5,11 L11,11 L11,5 C11,4.44771525 11.4477153,4 12,4 C12.5522847,4 13,4.44771525 13,5 L13,11 Z"></path>
+</svg>
+              </div>
+            </div>
+            <div class="service-body row">
+              <div class="col-12 col-lg-8">
+                <p>
+                  Компания «МЕДТЭК» осуществляет полный цикл работ по проектированию
+                  и оснащению операционных блоков, поставляя:
+                </p>
+                <ul>
+                  <li>электротехническое оборудование</li>
+                  <li>системы освещения</li>
+                  <li>вентиляции</li>
+                  <li>отопления</li>
+                  <li>снабжения медицинскими газами</li>
+                  <li>сантехническое</li>
+                  <li>моечное оборудование и другие категории медицинской техники</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="service" id="service-6"><img class="img-fluid service-image" src="images/Service-06.png" alt="">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="service-title">Поставка и ремонт медицинского оборудования</div>
+              <div class="expand-icon"><svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <circle fill="white" cx="24" cy="24" r="24"></circle>
+    <path fill="#4E4E4E" transform="translate(12, 12)"
+          d="M13,11 L19,11 C19.5522847,11 20,11.4477153 20,12 C20,12.5522847 19.5522847,13 19,13 L13,13 L13,19 C13,19.5522847 12.5522847,20 12,20 C11.4477153,20 11,19.5522847 11,19 L11,13 L5,13 C4.44771525,13 4,12.5522847 4,12 C4,11.4477153 4.44771525,11 5,11 L11,11 L11,5 C11,4.44771525 11.4477153,4 12,4 C12.5522847,4 13,4.44771525 13,5 L13,11 Z"></path>
+</svg>
+              </div>
+            </div>
+            <div class="service-body row">
+              <div class="col-12 col-lg-8">
+                <p>Компания «МЕДТЭК» осуществляет комплексные поставки и сервис оборудования:</p>
+                <ul>
+                  <li>кардиологии</li>
+                  <li>реанимации</li>
+                  <li>эндоскопии</li>
+                  <li>гастроскопии</li>
+                  <li>офтальмологии</li>
+                  <li>гинекологии</li>
+                  <li>урологии</li>
+                  <li>колопроктологии</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="partners-section" id="partners-section">
+      <div class="container">
+        <h3>Производители, которым мы доверяем</h3>
+        <div class="slick">
+          <div class="item"><img class="img-fluid" src="images/stanmore-implants.png" alt=""></div>
+          <div class="item"><img class="img-fluid" src="images/orthofix.png" alt=""></div>
+          <div class="item"><img class="img-fluid" src="images/stryker.png" alt=""></div>
+          <div class="item"><img class="img-fluid" src="images/lars.png" alt=""></div>
+          <div class="item"><img class="img-fluid" src="images/stanmore-implants.png" alt=""></div>
+          <div class="item"><img class="img-fluid" src="images/orthofix.png" alt=""></div>
+          <div class="item"><img class="img-fluid" src="images/stryker.png" alt=""></div>
+          <div class="item"><img class="img-fluid" src="images/lars.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="map-section" id="contacts">
+      <div class="google-map" id="google-map"></div>
+      <div class="popup-background"></div>
+      <div class="map-popup"><img class="medtek-logo" src="images/logo.svg">
+        <div class="info"><img class="info-icon" src="images/tel-icon.svg">
+          <div class="info-inner">
+            <div class="phone">(495) 936 <span class="dot">●</span> 26 <span class="dot">●</span> 60</div>
+            <div class="work-time">c 9:00 до 19:00</div>
+          </div>
+        </div>
+        <div class="info"><img class="info-icon" src="images/location-icon.svg">
+          <div class="info-inner">
+            <div class="address">г. Москва, улица Новаторов, дом 6</div>
+          </div>
+        </div><a class="btn-custom" href="#" data-modal="#call-template">Обратный звонок</a>
+      </div>
+    </div>
+    <div class="scroll-top-container">
+      <div class="scroll-top"><svg width="18px" height="14px" viewBox="15 16 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M18.4142136,24 L22.7071068,28.2928932 C23.0976311,28.6834175 23.0976311,29.3165825 22.7071068,29.7071068 C22.3165825,30.0976311 21.6834175,30.0976311 21.2928932,29.7071068 L15.2928932,23.7071068 C14.9023689,23.3165825 14.9023689,22.6834175 15.2928932,22.2928932 L21.2928932,16.2928932 C21.6834175,15.9023689 22.3165825,15.9023689 22.7071068,16.2928932 C23.0976311,16.6834175 23.0976311,17.3165825 22.7071068,17.7071068 L18.4142136,22 L32,22 C32.5522847,22 33,22.4477153 33,23 C33,23.5522847 32.5522847,24 32,24 L18.4142136,24 Z" ></path>
+</svg>
+      </div>
+    </div>
+<div class="footer">
+  <div class="container">
+    <div class="links-container"><a href="#service-1">Ортопедические протезы STANMORE IMPLANTS</a><a href="#service-2">Эндопротезы компании STRYKER</a><a href="#service-3">Oscar - ультразвуковой аппарат для ревизионных ортопедических операций</a><a href="#service-4">Проектирование и оснащение операционных блоков и ЦСО</a><a href="#service-5">Поставка и ремонт медицинского оборудования</a><a href="#service-6">Медицинские расходные материалы</a></div>
+    <div class="copy">© Медтэк</div>
+  </div>
+</div>
+  <script type="text/javascript" src="js/main.js?v=1527606667009"></script></body>
+</html>

@@ -1,0 +1,119 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "vars";
+
+@mixin size($x, $y) {
+  width: $x;
+  height: $y;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  //height: 100%;
+  min-height: 100%;
+  min-height: 100vh;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+a {
+  opacity: 0.65;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0884c2;
+  transition: ease opacity 250ms;
+
+  &.icon-link {
+    opacity: 0.83;
+    font-weight: 500;
+    text-decoration: none;
+
+    &.download-icon {
+      display: inline-flex;
+      align-items: center;
+
+      &:before {
+        content: "";
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-right: 9px;
+        background: url(../images/download.svg) no-repeat;
+      }
+    }
+  }
+
+  &.btn-custom {
+    text-decoration: none;
+    color: white;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.btn-custom {
+  box-sizing: content-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, #07babe, #049fb9);
+  box-shadow: 0 37px 22px -22px rgba(159, 218, 217, 0.78);
+  border: solid 6px rgba(159, 218, 217, 0.25);
+  background-clip: padding-box;
+  min-height: 48px;
+  padding: 0 40px;
+
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: none;
+
+  transition: ease box-shadow 400ms, ease transform 400ms;
+
+  &:hover, &:focus {
+    cursor: pointer;
+    box-shadow: 0 30px 15px -22px rgba(159, 218, 217, 0.5), 0 30px 15px -22px rgba(159, 218, 217, 0.5);
+    transform: scale(0.9);
+  }
+
+  &:active {
+    transform: scale(0.85);
+  }
+}
+
+@import "design/page-background";
+@import "design/header";
+@import "design/sidebar";
+@import "design/main-section";
+@import "design/about-section";
+@import "design/services-section";
+@import "design/partners-section";
+@import "design/map-section";
+@import "design/scroll-top";
+@import "design/fancybox";
+
+
+@import "design/footer";
+
+@import "design/ie11";

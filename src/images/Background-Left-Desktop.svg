@@ -1,0 +1,19 @@
+<svg width="535px" height="308px" viewBox="0 0 535 308" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Background-Left-Desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="22.6926728%" y1="122.269169%" x2="51.3916359%" y2="-22.7628773%" id="linearGradient-1">
+            <stop stop-color="#00AED9" stop-opacity="0.217362998" offset="0%"></stop>
+            <stop stop-color="#0092C5" stop-opacity="0.0144927536" offset="64.1585104%"></stop>
+            <stop stop-color="#0076B1" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Index-Expanded" fill="url(#linearGradient-1)">
+            <g id="Background-Left-Desktop" transform="translate(-1.000000, 0.000000)">
+                <path d="M557.997186,-7.61701813e-12 C491.640834,69.6345145 396.800705,110.932704 273.4768,123.894569 C99.5213021,142.178028 90.8373416,255.170704 0.485755448,307.518242 L1,-7.61701813e-12 L557.997186,-7.61701813e-12 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
