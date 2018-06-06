@@ -11,7 +11,10 @@ module.exports = function (paths) {
             publicPath: "../",
             fallback: 'style-loader',
             use: [
-              'css-loader',
+              {
+                loader: 'css-loader',
+                options: {minimize: true}
+              },
               'sass-loader'
             ]
           })
@@ -21,7 +24,12 @@ module.exports = function (paths) {
           include: paths,
           use: ExtractTextPlugin.extract({
             fallback: 'style-loader',
-            use: 'css-loader'
+            use: [
+              {
+                loader: 'css-loader',
+                options: {minimize: true}
+              }
+            ]
           })
         }
       ]

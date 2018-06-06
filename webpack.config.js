@@ -96,7 +96,7 @@ module.exports = function (env) {
       extractCSS(),
       fonts(),
       babel(),
-      // uglifyJS(),
+      uglifyJS(),
       // obfuscate()
     ]);
   }
