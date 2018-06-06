@@ -7051,8 +7051,7 @@ a {
     overflow: hidden;
     padding: 70px 0 50px 0;
     position: relative;
-    margin-top: -50px;
-    overflow-y: visible; }
+    margin-top: -50px; }
     @media (min-width: 576px) {
       .about-section .slider {
         margin-top: 0; } }
